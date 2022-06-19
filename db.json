@@ -1,0 +1,126 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "firstname": "Suresh",
+      "lastname": "KS",
+      "dob": "2022-06-23",
+      "gender": "male",
+      "status": "Active",
+      "id": 2
+    },
+    {
+      "firstname": "Suresh",
+      "lastname": "Chanikya",
+      "dob": "2022-06-23",
+      "gender": "male",
+      "status": "Active",
+      "id": 3
+    },
+    {
+      "firstname": "Suresh",
+      "lastname": "Chanikya",
+      "dob": "2022-06-23",
+      "gender": "male",
+      "status": "Active",
+      "id": 4
+    },
+    {
+      "firstname": "Sufiya",
+      "lastname": "Nadaf",
+      "dob": "2022-06-14",
+      "gender": "female",
+      "status": "Active",
+      "id": 5
+    },
+    {
+      "firstname": "Suresh ks",
+      "lastname": "Chanikya",
+      "dob": "2022-06-23",
+      "gender": "male",
+      "status": "Active",
+      "id": 6
+    },
+    {
+      "firstname": "Suresh",
+      "lastname": "Chanikya Kurapati",
+      "dob": "1991-06-23",
+      "gender": "male",
+      "status": "Active",
+      "id": 7
+    },
+    {
+      "firstname": "Suresh",
+      "lastname": "Chanikya Kurapati",
+      "dob": "1991-06-23",
+      "gender": "male",
+      "status": "Active",
+      "id": 8
+    },
+    {
+      "firstname": "siri",
+      "lastname": "Chanikya Kurapati",
+      "dob": "1991-06-23",
+      "gender": "female",
+      "status": "Active",
+      "id": 9
+    },
+    {
+      "firstname": "Kurapati",
+      "lastname": "Chanikya",
+      "dob": "1991-06-23",
+      "gender": "male",
+      "status": "Active",
+      "id": 10
+    },
+    {
+      "firstname": "Kurapati",
+      "lastname": "Chanikya",
+      "dob": "1991-06-13",
+      "gender": "male",
+      "status": "Suspended",
+      "id": 11
+    },
+    {
+      "firstname": "Srinivas",
+      "lastname": "Kurapati",
+      "dob": "2022-06-14",
+      "gender": "male",
+      "status": "Active",
+      "id": 12
+    },
+    {
+      "firstname": "Srinivasulu",
+      "lastname": "Kurapati",
+      "dob": "2022-06-14",
+      "gender": "male",
+      "status": "Active",
+      "id": 13
+    },
+    {
+      "firstname": "Srinivasulu",
+      "lastname": "Kurapati",
+      "dob": "2022-06-07",
+      "gender": "male",
+      "status": "Active",
+      "id": 14
+    },
+    {
+      "firstname": "Srinivasulu",
+      "lastname": "Kurapati",
+      "dob": "2022-06-07",
+      "gender": "male",
+      "status": "Active",
+      "id": 15
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
