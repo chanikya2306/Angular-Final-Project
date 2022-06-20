@@ -118,6 +118,30 @@
       "gender": "male",
       "status": "Active",
       "id": 15
+    },
+    {
+      "firstname": "Srinivasulu",
+      "lastname": "Kurapati",
+      "dob": "2022-06-07",
+      "gender": "male",
+      "status": "Suspended",
+      "id": 16
+    },
+    {
+      "firstname": "Sharth",
+      "lastname": "Subramani",
+      "dob": "2022-06-13",
+      "gender": "male",
+      "status": "Active",
+      "id": 17
+    },
+    {
+      "firstname": "Srinivasulu",
+      "lastname": "Kurapati",
+      "dob": "2022-06-07",
+      "gender": "male",
+      "status": "Suspended",
+      "id": 18
     }
   ],
   "profile": {

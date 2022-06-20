@@ -37,25 +37,29 @@ export class DialodBoxComponent implements OnInit {
 
   }
   addValue() {
+    if (!this.editData) {
+      if (this.form.valid) {
+        this.api.postData(this.form.value).subscribe((data: any) => {
+          console.log(data)
+          this.myArray = data
+        })
 
-    if (this.form.valid) {
-      this.api.postData(this.form.value).subscribe((data: any) => {
-        console.log(data)
-        this.myArray = data
-      })
+        console.log(this.form.value)
+        this.form.reset();
+        this.dialogRef.close();
+      }
 
-      console.log(this.form.value)
-      this.form.reset();
-      this.dialogRef.close();
-    }else{
-      this.updateProduct()
+
     }
- 
+    else {
+      this.updateProduct()
 
+    }
   }
-  updateProduct(){
-      this.api.getProduct(this.form.value, this.editData).subscribe((data:any)=>{
-        console.log(data)
-      })
+  updateProduct() {
+    this.api.getProduct(this.form.value, this.editData.id).subscribe((data: any) => {
+      console.log(data)
+      
+    })
   }
 }

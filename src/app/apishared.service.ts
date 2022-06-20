@@ -25,7 +25,7 @@ export class ApisharedService {
     return this.httpclient.get('http://localhost:3000/comments')
    }
   
-  getProduct(data:any,update:any){
-    return this.httpclient.put('http://localhost:3000/comments', data,update)
+   getProduct(form:any,id:number) {
+    return this.httpclient.put('http://localhost:3000/comments/' + id,form)
   }
 }
